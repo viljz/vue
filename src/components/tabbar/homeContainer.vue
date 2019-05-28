@@ -46,7 +46,6 @@
         </a>
       </li>
     </ul>
-
   </div>
 </template>
 <script>
@@ -79,6 +78,16 @@ export default {
     display: block;
     margin: 0 auto;
     height: 100%;
+  }
+}
+
+.mui-grid-view.mui-grid-9 {
+  background-color: #fff;
+  li {
+    border: none;
+  }
+  .mui-media-body {
+    font-size: 13px;
   }
 }
 </style>
