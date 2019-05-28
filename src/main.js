@@ -1,2 +1,3 @@
-// 项目入口文件 
+// 项目入口文件
+console.log('ok')
 console.log('ok')
