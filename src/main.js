@@ -30,6 +30,7 @@ import router from './router'
 // 导入 app 根组件
 import app from './App.vue'
 
+
 // 创建实例
 const vm = new Vue({
   el: '#app',
