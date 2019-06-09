@@ -2,7 +2,7 @@
   <div class="newsinfo_container">
     <h1 class="title">{{ content.title }}</h1>
     <div class="sub_title">
-      <span>发表时间: {{ content.add_time }}</span>
+      <span>发表时间: {{ content.add_time | dateF }}</span>
       <span>点击{{ content.click }}次</span>
     </div>
     <hr>

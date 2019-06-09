@@ -5,7 +5,7 @@
     <mt-button type="primary" size="large">发表评论</mt-button>
 
     <div class="cmt_list" v-for="(item, i) in contents" :key="item._id">
-      <div class="cmt_title">第{{ i + 1 }}楼&nbsp;&nbsp;用户:{{ item.name }}&nbsp;&nbsp;发表时间: {{ item.add_time }}</div>
+      <div class="cmt_title">第{{ i + 1 }}楼&nbsp;&nbsp;用户:{{ item.name }}&nbsp;&nbsp;发表时间: {{ item.add_time | dateF }}</div>
       <div class="cmt_body">{{ item.content }}</div>
     </div>
 
@@ -26,7 +26,7 @@ export default {
     getComment() {
       this.$http.get('pinglun').then(result => {
         this.contents = result.body
-        console.log(result.body)
+        // console.log(result.body)
       })
     }
   },
