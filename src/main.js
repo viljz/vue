@@ -139,6 +139,7 @@ Vue.filter('dateF', function (dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
 })
 
 
+
 // 安装 图片预览插件
 import VuePreview from 'vue-preview'
 Vue.use(VuePreview)
@@ -155,6 +156,7 @@ Vue.component(SwipeItem.name, SwipeItem)
 Vue.component(Button.name, Button)
 Vue.use(Lazyload);
 Vue.component(Switch.name, Switch)
+
 
 
 // 导入自己的路由

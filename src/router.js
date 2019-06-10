@@ -13,6 +13,7 @@ import photoInfo from './components/photos/PhotoInfo.vue'
 import goodsList from './components/goods/GoodsList.vue'
 import goodsInfo from './components/goods/GoodsInfo.vue'
 
+
 // 创建路由
 const router = new VueRouter({
   routes: [
